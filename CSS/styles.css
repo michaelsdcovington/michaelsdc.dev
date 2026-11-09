@@ -4,19 +4,22 @@
 
 body{
     background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
     size: 20%;
     text-align: center;
     background-color: paleturquoise;
+    border: 1px solid steelblue;
 }
 
 
 #about{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
+    border: 1px solid steelblue;
     text-align: left;
     padding: 5%;
     margin-left: 20%;
@@ -48,7 +51,7 @@ h1 {
     text-align: left;
 
     display: block;
-    border: 1px solid black;
+    border: 1px solid steelblue;
 
     padding: 1%;
 
@@ -63,5 +66,8 @@ h1 {
 }
 
 footer {
+    border: 1px solid steelblue;
+    background-color: paleturquoise;
     text-align: center;
+    margin: auto 20% auto 20%;
 }
