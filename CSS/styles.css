@@ -2,6 +2,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body{
+    background-color: palevioletred;
+}
+
 h1 {
     size: 20%;
     text-align: center;
@@ -17,6 +21,7 @@ h1 {
     padding: 5%;
     margin-left: 20%;
     margin-right: 20%;
+    background-color: paleturquoise;
 }
 
 
@@ -50,6 +55,7 @@ h1 {
 
     margin-left: 10%;
     margin-right: 10%;
+    background-color: paleturquoise;
 }
 
 .thumbnail img {
